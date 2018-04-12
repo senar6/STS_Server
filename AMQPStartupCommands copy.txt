@@ -1,0 +1,14 @@
+Server 
+java -jar spring-amqp-server-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,server --tutorial.client.duration=300000
+
+java -jar spring-amqp-client-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,client --server.port=4007
+
+
+Exchange name : demo.rpc
+routing key : rpc
+
+java -jar spring-amqp-client-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=rpc,client --server.port=4007
+
+http://localhost:4007/chat1.html
+
+Test Case ID#: 89491.0 #& Similarity Index#: 99% #& Test Name#: Sample test name1 #& Test Description #: This is a sample test description for the test case1 #@ Test Case ID#: 89467.0 #& Similarity Index#: 99% #& Test Name#: Sample test name2 #& Test Description #: This is a sample test description for the test case2 #@ Test Case ID#: 75547.0 #& Similarity Index#: 99% #& Test Name#: Sample test name3 #& Test Description #: This is a sample test description for the test case3 #@ Test Case ID#: 89466.0 #& Similarity Index#: 99% #& Test Name#: Sample test name4 #& Test Description #: This is a sample test description for the test case4 #@ Test Case ID#: 89492.0 #& Similarity Index#: 99% #& Test Name#: Sample test name5 #& Test Description #: This is a sample test description for the test case5
